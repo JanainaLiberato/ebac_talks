@@ -5,8 +5,7 @@
     "sharp": "^0.31.3"
   },
   "name": "ebac_talks",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.0",  
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "ansi-styles": "^4.3.0",
@@ -104,6 +103,7 @@
   },
   "scripts": {
     "dev": "parcel src/index.html src/styles/mains.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
